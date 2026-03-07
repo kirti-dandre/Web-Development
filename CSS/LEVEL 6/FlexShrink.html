@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLEX SHRINK </title>
+  <style>
+     *{
+      MARGIN:0;
+      PADDING:0;
+    }
+    #heading{
+      margin: 20px;
+    }
+    #container{
+      height:500px;
+      width:700px;
+      background-color: lightcoral;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      height:430px;
+      width:430px;
+      margin:5px;
+      border: 2px solid palevioletred;
+      display: flex;
+      flex-direction: row;
+      justify-content:start;
+      align-items: start;
+    }
+    #box1{
+      background-color: blanchedalmond;
+    }
+    #box2{
+      background-color: chartreuse;
+      flex-shrink: 2;                       /*FLEX SHRINK*/
+    }
+    #box3{
+      background-color: rgb(224, 178, 114);
+    }
+    #box4{
+      background-color: darkkhaki;
+    }
+    #box5{
+      background-color: blue;
+    }
+    #box6{
+      background-color: dodgerblue;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="heading"> Align Items</h1>
+  <div id="container">
+  <div id="box1" class="box">box1</div>
+  <div id="box2" class="box">box2</div>
+  <div id="box3" class="box">box3</div>
+  <div id="box4" class="box">box4</div>
+  <div id="box5" class="box">box5</div>
+</body>
+</html>

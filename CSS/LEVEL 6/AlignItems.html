@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <title>Align Items</title>
+  <style>
+     *{
+      MARGIN:0;
+      PADDING:0;
+    }
+    #heading{
+      margin: 20px;
+    }
+    #container{
+      height:500px;
+      width:700px;
+      background-color: lightcoral;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      border: 2px solid gold;
+      justify-content: center;
+      align-items:end;
+      align-content:center;
+    }
+    .box{
+      height:95px;
+      width:95px;
+      margin:5px;
+      border: 2px solid palevioletred;
+      display: flex;
+      flex-direction: row;
+      justify-content:start;
+      align-items: start;
+    }
+    #box1{
+      background-color: blanchedalmond;
+    }
+    #box2{
+      background-color: chartreuse;
+    }
+    #box3{
+      background-color: rgb(97, 92, 85);
+      align-self: flex-end;
+    }
+    #box3{
+      background-color: rgb(153, 138, 138);
+    }
+    #box4,#box7{
+      background-color: darkkhaki;
+    }
+    #box5,#box8{
+      background-color: blue;
+    }
+    #box6,#box9{
+      background-color: dodgerblue;
+    }
+  </style>
+</head>
+<body> 
+  <h1 id="heading"> Align Items</h1>
+  <div id="container">
+  <div id="box1" class="box">box1</div>
+  <div id="box2" class="box">box2</div>
+  <div id="box3" class="box">box3</div>
+  <div id="box4" class="box">box4</div>
+  <div id="box5" class="box">box5</div>
+  <div id="box6" class="box">box6</div> 
+  <div id="box7" class="box">box7</div>
+  <div id="box8" class="box">box8</div>   
+  <div id="box9" class="box">box9</div>
+
+</body>
+</html>

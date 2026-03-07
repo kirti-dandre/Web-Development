@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexwrap</title>
+  <style>
+   *{
+    margin:0px;
+    padding:0px;
+   }
+   #container{
+    background-color: cadetblue;
+    height:500px;
+    width:600px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+   }
+   .box{
+    height: 170px;
+    width: 160px;
+    margin:4px;
+    flex-direction: row;
+    border: 3px dashed purple;
+    flex-wrap: wrap;
+   }
+   #box1{
+    background-color: azure;
+   }
+   #box2{
+    background-color: chartreuse;
+   }
+   #box3{
+    background-color: crimson;
+   }
+   #box4{
+    background-color: deepskyblue;
+   }
+   #box5{
+    background-color: lightgoldenrodyellow;
+   }
+  </style>
+</head>
+<body>
+  <div id="container">
+   <div id="box1" class="box">box1</div>
+   <div id="box2" class="box">box2</div>
+   <div id="box3" class="box">box3</div>
+   <div id="box4" class="box">box4</div>
+   <div id="box5" class="box">box5</div>
+  </div>  
+</body>
+</html>

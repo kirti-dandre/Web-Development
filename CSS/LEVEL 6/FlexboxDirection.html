@@ -1,0 +1,51 @@
+<!DOCTYPE htm>
+<head>
+  <title>Flexbox Direction</title>
+  <style>
+    *{
+      MARGIN:0;
+      PADDING:0;
+    }
+    #heading{
+      margin: 20px;
+    }
+    #container{
+      height:500px;
+      width:700px;
+      background-color: rgb(203, 233, 233);
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      flex-direction: column;
+      border: 2px solid gold;
+    }
+    .box{
+      height:200px;
+      width:300px;
+      margin:5px;
+      border: 2px solid palevioletred;
+    }
+    #box1{
+      background-color: blanchedalmond;
+    }
+    #box2{
+      background-color: chartreuse;
+    }
+    #box3{
+      background-color: rgb(97, 92, 85);
+    }
+    #box4{
+      background-color: darkkhaki;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="heading">Container</h1>
+<div id="container">
+  <div id="box1" class="box"> box1</div>
+  <div id="box2" class="box">box2</div>
+  <div id="box3" class="box">box3</div>
+  <div id="box4" class="box"> box4</div>
+</div>
+</body>
+</html>
