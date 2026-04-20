@@ -49,7 +49,11 @@ Grid
 
 Media Queries
 
-Purpose
+Pseudo Classes
+
+Transitions
+
+CSS Transform
 
 This repository is created to practice and improve my front-end web development skills step by step.
 
