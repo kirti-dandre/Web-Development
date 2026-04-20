@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .transition {
+      background-color: rgb(249, 225, 10);
+      height: 50px;
+      width: 150px;
+      border-radius: 10px;
+      border: 2px dotted black;
+      transition-property: all;
+      transition-duration: 2s;
+      transition-timing-function: ease-in-out;
+      transition-delay: 1s;
+    }
+    .transition:hover {
+      height: 70px;
+      width: 190px;
+      background-color: chartreuse;
+      border-color: bisque;
+      
+    }
+    .transition:active {
+      background-color: aqua;
+      height: 90px;
+      width: 210px;
+      border-color: blue;
+
+    }
+  </style>
+</head>
+<body>
+  <button class: transition>Click Me</button>
+</body>
+</html>
