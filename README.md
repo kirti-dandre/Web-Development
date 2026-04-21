@@ -55,6 +55,8 @@ Transitions
 
 CSS Transform
 
+Animation
+
 This repository is created to practice and improve my front-end web development skills step by step.
 
 Author
