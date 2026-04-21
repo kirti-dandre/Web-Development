@@ -6,22 +6,30 @@
   <title>Transform</title>
   <style>
    .box {
-    background-color: aqua;
     height : 50px;
-    width: 50px;
+    width: 70px;
     border: 2px solid black;
+    padding: 5px;
+    margin: 50px;
     position: relative;
     top: 50px;
     left: 50px;
-    transform: rotate(45deg);
+    background-color: chartreuse;
     transition: all 2s ease-in;
    }
-   .box:hover{
-    transform: rotate(270deg);
-   }
+   #box1:hover {transform: rotateX(180deg);background-color: rgb(105, 72, 240);}
+   #box2:hover{transform: rotateY(90deg);background-color: beige;}
+   #box3:hover{transform: scale(2);background-color: blueviolet;}
+   #box4:hover{transform: translate(-20px,20px);background-color: darkred;}
+   #box5:hover{transform:skew(180deg) ;background-color: aqua;}
+
   </style>
 </head>
 <body>
-  <div class = box> Rotate</div>
+  <div class = "box" id = "box1"> Rotate</div>
+  <div class = "box" id = "box2"> Rotate</div>
+  <div class="box" id="box3"> Scale </div>
+  <div class="box" id="box4"> Translate</div>
+  <div class="box" id="box5"> Skew </div>
 </body>
 </html>
