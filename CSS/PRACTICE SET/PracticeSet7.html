@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Practice</title>
+  <style>
+    .progress-container{
+      height:25px;
+      width: 90%;
+      background-color: rgb(136, 166, 236);
+      border: 2px solid black;
+      border-radius:25px;
+      position: relative;
+      left: 4%;
+
+    }
+    .progress-bar{
+      background-color: cadetblue;
+      border-radius: 25px;
+      height: 25px;
+      animation: animation_progress 3s infinite;
+    }
+    @keyframes animation_progress {
+      0%{width:0%}
+      90%{width:95%}
+      95%{width:70%}
+      100%{width:100%}
+    }
+    
+  </style>
+</head>
+<body>
+  <!--Create a webpage with a process bar that showcase a smooth loading animation. The process bar should fill up from 0 to 100% with a smooth transition effect and a slight bounce when it reachse 100%.-->
+  <div class="progress-container">
+    <div class="progress-bar">
+    </div>
+  </div>
+
+</body>
+</html>
