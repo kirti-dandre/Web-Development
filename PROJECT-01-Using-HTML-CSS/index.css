@@ -1,0 +1,18 @@
+*{
+  margin:0;
+  padding:0;
+  border: 2px solid rgb(4, 4, 28);
+}
+.container {
+  height: 100vh;
+  background-color: rgb(168, 207, 246);
+}
+/*#name {
+  text-align: left;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-align:center;padding-top: 50px;
+}*/
+#photo {
+  margin: 20px;
+  }
